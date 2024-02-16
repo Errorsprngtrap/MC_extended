@@ -2,21 +2,21 @@
   "_fv": 57,
   "_type": "recipe",
   "definition": {
-    "recipeType": "Smelting",
+    "recipeType": "Smoking",
     "recipeRetstackSize": 1,
     "group": "",
     "cookingBookCategory": "MISC",
-    "xpReward": 0.21000000000000002,
+    "xpReward": 6.0,
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
-    "smeltingInputStack": {
-      "value": "CUSTOM:AluminiumOre"
+    "smokingInputStack": {
+      "value": "CUSTOM:Rottenflashalu"
     },
-    "smeltingReturnStack": {
-      "value": "CUSTOM:AluminiumIngot"
+    "smokingReturnStack": {
+      "value": "CUSTOM:Cookedrottenflesh"
     },
-    "name": "aluminium_ore_smelting",
+    "name": "cookerottenfleshcraft",
     "namespace": "mod"
   }
 }

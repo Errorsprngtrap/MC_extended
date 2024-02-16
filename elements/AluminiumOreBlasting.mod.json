@@ -2,21 +2,21 @@
   "_fv": 57,
   "_type": "recipe",
   "definition": {
-    "recipeType": "Smelting",
+    "recipeType": "Blasting",
     "recipeRetstackSize": 1,
     "group": "",
     "cookingBookCategory": "MISC",
-    "xpReward": 0.21000000000000002,
-    "cookingTime": 200,
+    "xpReward": 1.01,
+    "cookingTime": 150,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
-    "smeltingInputStack": {
+    "blastingInputStack": {
       "value": "CUSTOM:AluminiumOre"
     },
-    "smeltingReturnStack": {
+    "blastingReturnStack": {
       "value": "CUSTOM:AluminiumIngot"
     },
-    "name": "aluminium_ore_smelting",
+    "name": "aluminium_ore_blasting",
     "namespace": "mod"
   }
 }

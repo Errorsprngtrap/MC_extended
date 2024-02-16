@@ -31,6 +31,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.springrami.init.SpringramiModTabs;
 import net.mcreator.springrami.init.SpringramiModItems;
+import net.mcreator.springrami.init.SpringramiModEntities;
 import net.mcreator.springrami.init.SpringramiModBlocks;
 
 import java.util.function.Supplier;
@@ -54,6 +55,7 @@ public class SpringramiMod {
 		SpringramiModBlocks.REGISTRY.register(bus);
 
 		SpringramiModItems.REGISTRY.register(bus);
+		SpringramiModEntities.REGISTRY.register(bus);
 
 		SpringramiModTabs.REGISTRY.register(bus);
 

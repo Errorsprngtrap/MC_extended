@@ -149,6 +149,79 @@
         ]
       },
       "path": "~/Food"
+    },
+    {
+      "name": "AluminiumOreBlasting",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_ore_blasting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/springrami/recipes/aluminium_ore_blasting.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "Feuillealucraft",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feuillealucraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/springrami/recipes/feuillealucraft.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "Rottenfleshalucraft",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rottenfleshalucraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/springrami/recipes/rottenfleshalucraft.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "Cookerottenfleshcraft",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cookerottenfleshcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/springrami/recipes/cookerottenfleshcraft.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "Meduse",
+      "type": "livingentity",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meduse",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/springrami/client/renderer/MeduseRenderer.java",
+          "src/main/resources/data/springrami/forge/biome_modifier/meduse_biome_modifier.json",
+          "src/main/java/net/mcreator/springrami/entity/MeduseEntity.java",
+          "src/main/resources/assets/springrami/models/item/meduse_spawn_egg.json"
+        ]
+      },
+      "path": "~/Mob"
     }
   ],
   "variable_elements": [],
@@ -159,8 +232,10 @@
       "item.springrami.rottenflashalu": "Rotten_flesh_alu",
       "block.springrami.aluminium_ore": "Aluminium Ore",
       "item.springrami.cookedrottenflesh": "cooked_rotten_flesh",
+      "entity.springrami.meduse": "Meduse",
       "item_group.springrami.oreexpansion": "Ore_expansion",
       "item.springrami.feuilledaluminium": "Feuilledaluminium",
+      "item.springrami.meduse_spawn_egg": "Meduse Spawn Egg",
       "item.springrami.aluminium_ingot": "Aluminium",
       "item_group.springrami.foodexpansion": "Foodexpansion"
     }
@@ -198,6 +273,10 @@
       },
       {
         "name": "Procedure",
+        "children": []
+      },
+      {
+        "name": "Mob",
         "children": []
       }
     ]

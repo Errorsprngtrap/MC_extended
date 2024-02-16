@@ -3,8 +3,10 @@
   "item.springrami.rottenflashalu": "Rotten_flesh_alu",
   "block.springrami.aluminium_ore": "Aluminium Ore",
   "item.springrami.cookedrottenflesh": "cooked_rotten_flesh",
+  "entity.springrami.meduse": "Meduse",
   "item_group.springrami.oreexpansion": "Ore_expansion",
   "item.springrami.feuilledaluminium": "Feuilledaluminium",
+  "item.springrami.meduse_spawn_egg": "Meduse Spawn Egg",
   "item.springrami.aluminium_ingot": "Aluminium",
   "item_group.springrami.foodexpansion": "Foodexpansion"
 }

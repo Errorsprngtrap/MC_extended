@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "springrami:aluminium_ingot"
+    },
+    {
+      "item": "springrami:aluminium_ingot"
+    }
+  ],
+  "result": {
+    "item": "springrami:feuilledaluminium",
+    "count": 1
+  }
+}
