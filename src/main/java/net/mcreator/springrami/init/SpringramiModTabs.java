@@ -21,6 +21,7 @@ public class SpringramiModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.springrami.oreexpansion")).icon(() -> new ItemStack(SpringramiModBlocks.ALUMINIUM_ORE.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(SpringramiModBlocks.ALUMINIUM_ORE.get().asItem());
 				tabData.accept(SpringramiModItems.ALUMINIUM_INGOT.get());
+				tabData.accept(SpringramiModItems.PETROLE_BUCKET.get());
 			}).withSearchBar().build());
 	public static final RegistryObject<CreativeModeTab> ITEMSEXPANSION = REGISTRY.register("itemsexpansion",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.springrami.itemsexpansion")).icon(() -> new ItemStack(SpringramiModItems.FEUILLEDALUMINIUM.get())).displayItems((parameters, tabData) -> {
@@ -33,4 +34,12 @@ public class SpringramiModTabs {
 			})
 
 					.build());
+	public static final RegistryObject<CreativeModeTab> BLOCKEXPANSION = REGISTRY.register("blockexpansion",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.springrami.blockexpansion")).icon(() -> new ItemStack(SpringramiModBlocks.DAMIER.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(SpringramiModBlocks.DAMIER.get().asItem());
+			}).withSearchBar().build());
+	public static final RegistryObject<CreativeModeTab> WEAPONEXPANSION = REGISTRY.register("weaponexpansion",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.springrami.weaponexpansion")).icon(() -> new ItemStack(SpringramiModItems.DAGGER.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(SpringramiModItems.DAGGER.get());
+			}).withSearchBar().build());
 }

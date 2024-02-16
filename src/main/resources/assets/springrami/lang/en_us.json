@@ -1,10 +1,17 @@
 {
+  "item_group.springrami.oreexpansion": "Ore_expansion",
+  "item.springrami.dagger": "Dagger",
+  "item.springrami.feuilledaluminium": "Feuilledaluminium",
+  "fluid.springrami.petrole": "Petrole",
+  "item.springrami.aluminium_ingot": "Aluminium",
+  "item_group.springrami.foodexpansion": "Foodexpansion",
   "item_group.springrami.itemsexpansion": "Itemsexpansion",
   "item.springrami.rottenflashalu": "Rotten_flesh_alu",
   "block.springrami.aluminium_ore": "Aluminium Ore",
   "item.springrami.cookedrottenflesh": "cooked_rotten_flesh",
-  "item_group.springrami.oreexpansion": "Ore_expansion",
-  "item.springrami.feuilledaluminium": "Feuilledaluminium",
-  "item.springrami.aluminium_ingot": "Aluminium",
-  "item_group.springrami.foodexpansion": "Foodexpansion"
+  "item_group.springrami.blockexpansion": "Blockexpansion",
+  "item.springrami.petrole_bucket": "Petrole Bucket",
+  "block.springrami.petrole": "Petrole",
+  "item_group.springrami.weaponexpansion": "Weaponexpansion",
+  "block.springrami.damier": "Damier"
 }

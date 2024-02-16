@@ -13,7 +13,9 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.springrami.item.RottenflashaluItem;
+import net.mcreator.springrami.item.PetroleItem;
 import net.mcreator.springrami.item.FeuilledaluminiumItem;
+import net.mcreator.springrami.item.DaggerItem;
 import net.mcreator.springrami.item.CookedrottenfleshItem;
 import net.mcreator.springrami.item.AluminiumIngotItem;
 import net.mcreator.springrami.SpringramiMod;
@@ -25,6 +27,9 @@ public class SpringramiModItems {
 	public static final RegistryObject<Item> FEUILLEDALUMINIUM = REGISTRY.register("feuilledaluminium", () -> new FeuilledaluminiumItem());
 	public static final RegistryObject<Item> ROTTENFLASHALU = REGISTRY.register("rottenflashalu", () -> new RottenflashaluItem());
 	public static final RegistryObject<Item> COOKEDROTTENFLESH = REGISTRY.register("cookedrottenflesh", () -> new CookedrottenfleshItem());
+	public static final RegistryObject<Item> PETROLE_BUCKET = REGISTRY.register("petrole_bucket", () -> new PetroleItem());
+	public static final RegistryObject<Item> DAMIER = block(SpringramiModBlocks.DAMIER);
+	public static final RegistryObject<Item> DAGGER = REGISTRY.register("dagger", () -> new DaggerItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

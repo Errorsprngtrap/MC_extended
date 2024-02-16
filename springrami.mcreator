@@ -205,20 +205,117 @@
         ]
       },
       "path": "~/Craft"
+    },
+    {
+      "name": "Petrole",
+      "type": "fluid",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "petrole",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/springrami/fluid/PetroleFluid.java",
+          "src/main/java/net/mcreator/springrami/fluid/types/PetroleFluidType.java",
+          "src/main/resources/assets/springrami/models/block/petrole.json",
+          "src/main/java/net/mcreator/springrami/block/PetroleBlock.java",
+          "src/main/resources/assets/springrami/blockstates/petrole.json",
+          "src/main/java/net/mcreator/springrami/item/PetroleItem.java",
+          "src/main/resources/assets/springrami/models/item/petrole_bucket.json"
+        ]
+      },
+      "path": "~/Fluide"
+    },
+    {
+      "name": "Damier",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "damier",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/springrami/models/item/damier.json",
+          "src/main/resources/assets/springrami/models/block/damier.json",
+          "src/main/resources/assets/springrami/blockstates/damier.json",
+          "src/main/java/net/mcreator/springrami/block/DamierBlock.java"
+        ]
+      },
+      "path": "~/Block"
+    },
+    {
+      "name": "Blockexpansion",
+      "type": "tab",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blockexpansion",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Tab"
+    },
+    {
+      "name": "Dagger",
+      "type": "tool",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dagger",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/springrami/item/DaggerItem.java",
+          "src/main/resources/assets/springrami/models/item/dagger.json"
+        ]
+      },
+      "path": "~/Weapon"
+    },
+    {
+      "name": "Weaponexpansion",
+      "type": "tab",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weaponexpansion",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Tab"
+    },
+    {
+      "name": "Daggercraft",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "daggercraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/springrami/recipes/daggercraft.json"
+        ]
+      },
+      "path": "~/Craft"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item_group.springrami.oreexpansion": "Ore_expansion",
+      "item.springrami.dagger": "Dagger",
+      "item.springrami.feuilledaluminium": "Feuilledaluminium",
+      "fluid.springrami.petrole": "Petrole",
+      "item.springrami.aluminium_ingot": "Aluminium",
+      "item_group.springrami.foodexpansion": "Foodexpansion",
       "item_group.springrami.itemsexpansion": "Itemsexpansion",
       "item.springrami.rottenflashalu": "Rotten_flesh_alu",
       "block.springrami.aluminium_ore": "Aluminium Ore",
       "item.springrami.cookedrottenflesh": "cooked_rotten_flesh",
-      "item_group.springrami.oreexpansion": "Ore_expansion",
-      "item.springrami.feuilledaluminium": "Feuilledaluminium",
-      "item.springrami.aluminium_ingot": "Aluminium",
-      "item_group.springrami.foodexpansion": "Foodexpansion"
+      "item_group.springrami.blockexpansion": "Blockexpansion",
+      "item.springrami.petrole_bucket": "Petrole Bucket",
+      "block.springrami.petrole": "Petrole",
+      "item_group.springrami.weaponexpansion": "Weaponexpansion",
+      "block.springrami.damier": "Damier"
     }
   },
   "foldersRoot": {
@@ -258,6 +355,10 @@
       },
       {
         "name": "Mob",
+        "children": []
+      },
+      {
+        "name": "Weapon",
         "children": []
       }
     ]
