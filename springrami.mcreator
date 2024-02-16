@@ -86,7 +86,69 @@
       "metadata": {
         "files": []
       },
-      "path": "~/items"
+      "path": "~/Tab"
+    },
+    {
+      "name": "Foodexpansion",
+      "type": "tab",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "foodexpansion",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Tab"
+    },
+    {
+      "name": "Rottenflashalu",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rottenflashalu",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/springrami/models/item/rottenflashalu.json",
+          "src/main/java/net/mcreator/springrami/item/RottenflashaluItem.java"
+        ]
+      },
+      "path": "~/Food"
+    },
+    {
+      "name": "RottenflashaluLeJoueurTermineDutiliserLitem",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rottenflashalu_le_joueur_termine_dutiliser_litem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/springrami/procedures/RottenflashaluLeJoueurTermineDutiliserLitemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Cookedrottenflesh",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cookedrottenflesh",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/springrami/item/CookedrottenfleshItem.java",
+          "src/main/resources/assets/springrami/models/item/cookedrottenflesh.json"
+        ]
+      },
+      "path": "~/Food"
     }
   ],
   "variable_elements": [],
@@ -94,10 +156,13 @@
   "language_map": {
     "en_us": {
       "item_group.springrami.itemsexpansion": "Itemsexpansion",
+      "item.springrami.rottenflashalu": "Rotten_flesh_alu",
       "block.springrami.aluminium_ore": "Aluminium Ore",
-      "item_group.springrami.oreexpansion": "Oreexpansion",
+      "item.springrami.cookedrottenflesh": "cooked_rotten_flesh",
+      "item_group.springrami.oreexpansion": "Ore_expansion",
       "item.springrami.feuilledaluminium": "Feuilledaluminium",
-      "item.springrami.aluminium_ingot": "Aluminium"
+      "item.springrami.aluminium_ingot": "Aluminium",
+      "item_group.springrami.foodexpansion": "Foodexpansion"
     }
   },
   "foldersRoot": {
@@ -125,6 +190,14 @@
       },
       {
         "name": "Tab",
+        "children": []
+      },
+      {
+        "name": "Food",
+        "children": []
+      },
+      {
+        "name": "Procedure",
         "children": []
       }
     ]

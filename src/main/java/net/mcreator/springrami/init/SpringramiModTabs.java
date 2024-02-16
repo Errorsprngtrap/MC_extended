@@ -7,6 +7,7 @@ package net.mcreator.springrami.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.network.chat.Component;
@@ -25,4 +26,11 @@ public class SpringramiModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.springrami.itemsexpansion")).icon(() -> new ItemStack(SpringramiModItems.FEUILLEDALUMINIUM.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(SpringramiModItems.FEUILLEDALUMINIUM.get());
 			}).withSearchBar().build());
+	public static final RegistryObject<CreativeModeTab> FOODEXPANSION = REGISTRY.register("foodexpansion",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.springrami.foodexpansion")).icon(() -> new ItemStack(Blocks.SUGAR_CANE)).displayItems((parameters, tabData) -> {
+				tabData.accept(SpringramiModItems.ROTTENFLASHALU.get());
+				tabData.accept(SpringramiModItems.COOKEDROTTENFLESH.get());
+			})
+
+					.build());
 }
