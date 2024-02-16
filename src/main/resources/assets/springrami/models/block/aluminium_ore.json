@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "springrami:block/aluminium_ore",
+    "particle": "springrami:block/aluminium_ore"
+  },
+  "render_type": "solid"
+}

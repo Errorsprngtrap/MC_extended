@@ -1,9 +1,104 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "AluminiumIngot",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/springrami/item/AluminiumIngotItem.java",
+          "src/main/resources/assets/springrami/models/item/aluminium_ingot.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "AluminiumOre",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/springrami/models/item/aluminium_ore.json",
+          "src/main/java/net/mcreator/springrami/block/AluminiumOreBlock.java",
+          "src/main/resources/assets/springrami/blockstates/aluminium_ore.json",
+          "src/main/resources/data/springrami/worldgen/placed_feature/aluminium_ore.json",
+          "src/main/resources/assets/springrami/models/block/aluminium_ore.json",
+          "src/main/resources/data/springrami/worldgen/configured_feature/aluminium_ore.json",
+          "src/main/resources/data/springrami/forge/biome_modifier/aluminium_ore_biome_modifier.json"
+        ]
+      },
+      "path": "~/Minerai"
+    },
+    {
+      "name": "AluminiumOreSmelting",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/springrami/recipes/aluminium_ore_smelting.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "Oreexpansion",
+      "type": "tab",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oreexpansion",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Tab"
+    },
+    {
+      "name": "Feuilledaluminium",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feuilledaluminium",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/springrami/item/FeuilledaluminiumItem.java",
+          "src/main/resources/assets/springrami/models/item/feuilledaluminium.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "Itemsexpansion",
+      "type": "tab",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "itemsexpansion",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/items"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item_group.springrami.itemsexpansion": "Itemsexpansion",
+      "block.springrami.aluminium_ore": "Aluminium Ore",
+      "item_group.springrami.oreexpansion": "Oreexpansion",
+      "item.springrami.feuilledaluminium": "Feuilledaluminium",
+      "item.springrami.aluminium_ingot": "Aluminium"
+    }
   },
   "foldersRoot": {
     "name": "~",
@@ -14,6 +109,22 @@
       },
       {
         "name": "Block",
+        "children": []
+      },
+      {
+        "name": "Fluide",
+        "children": []
+      },
+      {
+        "name": "items",
+        "children": []
+      },
+      {
+        "name": "Craft",
+        "children": []
+      },
+      {
+        "name": "Tab",
         "children": []
       }
     ]

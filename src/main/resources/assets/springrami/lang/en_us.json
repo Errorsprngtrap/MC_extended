@@ -1,1 +1,7 @@
-{}
+{
+  "item_group.springrami.itemsexpansion": "Itemsexpansion",
+  "block.springrami.aluminium_ore": "Aluminium Ore",
+  "item_group.springrami.oreexpansion": "Oreexpansion",
+  "item.springrami.feuilledaluminium": "Feuilledaluminium",
+  "item.springrami.aluminium_ingot": "Aluminium"
+}
