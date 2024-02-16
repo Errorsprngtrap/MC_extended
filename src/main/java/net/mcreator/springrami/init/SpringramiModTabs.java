@@ -21,7 +21,6 @@ public class SpringramiModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.springrami.oreexpansion")).icon(() -> new ItemStack(SpringramiModBlocks.ALUMINIUM_ORE.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(SpringramiModBlocks.ALUMINIUM_ORE.get().asItem());
 				tabData.accept(SpringramiModItems.ALUMINIUM_INGOT.get());
-				tabData.accept(SpringramiModItems.MEDUSE_SPAWN_EGG.get());
 			}).withSearchBar().build());
 	public static final RegistryObject<CreativeModeTab> ITEMSEXPANSION = REGISTRY.register("itemsexpansion",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.springrami.itemsexpansion")).icon(() -> new ItemStack(SpringramiModItems.FEUILLEDALUMINIUM.get())).displayItems((parameters, tabData) -> {

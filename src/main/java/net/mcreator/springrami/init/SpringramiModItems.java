@@ -7,7 +7,6 @@ package net.mcreator.springrami.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
@@ -26,7 +25,6 @@ public class SpringramiModItems {
 	public static final RegistryObject<Item> FEUILLEDALUMINIUM = REGISTRY.register("feuilledaluminium", () -> new FeuilledaluminiumItem());
 	public static final RegistryObject<Item> ROTTENFLASHALU = REGISTRY.register("rottenflashalu", () -> new RottenflashaluItem());
 	public static final RegistryObject<Item> COOKEDROTTENFLESH = REGISTRY.register("cookedrottenflesh", () -> new CookedrottenfleshItem());
-	public static final RegistryObject<Item> MEDUSE_SPAWN_EGG = REGISTRY.register("meduse_spawn_egg", () -> new ForgeSpawnEggItem(SpringramiModEntities.MEDUSE, -1, -1, new Item.Properties()));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

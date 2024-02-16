@@ -205,23 +205,6 @@
         ]
       },
       "path": "~/Craft"
-    },
-    {
-      "name": "Meduse",
-      "type": "livingentity",
-      "sortid": 17,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "meduse",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/springrami/client/renderer/MeduseRenderer.java",
-          "src/main/resources/data/springrami/forge/biome_modifier/meduse_biome_modifier.json",
-          "src/main/java/net/mcreator/springrami/entity/MeduseEntity.java",
-          "src/main/resources/assets/springrami/models/item/meduse_spawn_egg.json"
-        ]
-      },
-      "path": "~/Mob"
     }
   ],
   "variable_elements": [],
@@ -232,10 +215,8 @@
       "item.springrami.rottenflashalu": "Rotten_flesh_alu",
       "block.springrami.aluminium_ore": "Aluminium Ore",
       "item.springrami.cookedrottenflesh": "cooked_rotten_flesh",
-      "entity.springrami.meduse": "Meduse",
       "item_group.springrami.oreexpansion": "Ore_expansion",
       "item.springrami.feuilledaluminium": "Feuilledaluminium",
-      "item.springrami.meduse_spawn_egg": "Meduse Spawn Egg",
       "item.springrami.aluminium_ingot": "Aluminium",
       "item_group.springrami.foodexpansion": "Foodexpansion"
     }
