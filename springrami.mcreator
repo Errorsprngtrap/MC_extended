@@ -19,6 +19,26 @@
       {
         "name": "Craft",
         "children": []
+      },
+      {
+        "name": "items",
+        "children": []
+      },
+      {
+        "name": "Food",
+        "children": []
+      },
+      {
+        "name": "Armors",
+        "children": []
+      },
+      {
+        "name": "Weapons",
+        "children": []
+      },
+      {
+        "name": "Tab",
+        "children": []
       }
     ]
   },
