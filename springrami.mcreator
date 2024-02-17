@@ -7,7 +7,20 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Minerai",
+        "children": []
+      },
+      {
+        "name": "Block",
+        "children": []
+      },
+      {
+        "name": "Craft",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "springrami",
