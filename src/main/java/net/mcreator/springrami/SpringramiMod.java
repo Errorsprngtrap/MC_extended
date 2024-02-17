@@ -29,12 +29,6 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
-import net.mcreator.springrami.init.SpringramiModTabs;
-import net.mcreator.springrami.init.SpringramiModItems;
-import net.mcreator.springrami.init.SpringramiModFluids;
-import net.mcreator.springrami.init.SpringramiModFluidTypes;
-import net.mcreator.springrami.init.SpringramiModBlocks;
-
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -53,14 +47,6 @@ public class SpringramiMod {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
-		SpringramiModBlocks.REGISTRY.register(bus);
-
-		SpringramiModItems.REGISTRY.register(bus);
-
-		SpringramiModTabs.REGISTRY.register(bus);
-
-		SpringramiModFluids.REGISTRY.register(bus);
-		SpringramiModFluidTypes.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";
