@@ -1,0 +1,11 @@
+{
+  "_fv": 57,
+  "_type": "tab",
+  "definition": {
+    "name": "Mcexpansion",
+    "icon": {
+      "value": "Blocks.SMOOTH_STONE"
+    },
+    "showSearch": true
+  }
+}

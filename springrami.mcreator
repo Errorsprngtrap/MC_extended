@@ -1,9 +1,56 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Mcexpansion",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcexpansion",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Tab"
+    },
+    {
+      "name": "Damier",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "damier",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/springrami/models/item/damier.json",
+          "src/main/resources/assets/springrami/models/block/damier.json",
+          "src/main/resources/assets/springrami/blockstates/damier.json",
+          "src/main/java/net/mcreator/springrami/block/DamierBlock.java"
+        ]
+      },
+      "path": "~/Block"
+    },
+    {
+      "name": "Damiercraft",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "damiercraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/springrami/recipes/damiercraft.json"
+        ]
+      },
+      "path": "~/Craft"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item_group.springrami.mcexpansion": "Mcexpansion",
+      "block.springrami.damier": "Damier"
+    }
   },
   "foldersRoot": {
     "name": "~",

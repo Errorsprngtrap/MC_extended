@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "springrami:block/damier",
+    "particle": "springrami:block/damier"
+  },
+  "render_type": "solid"
+}
