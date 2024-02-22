@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Rubys"
+      },
+      {
+        "value": "CUSTOM:Rubys"
+      },
+      {
+        "value": "CUSTOM:Rubys"
+      },
+      {
+        "value": "CUSTOM:Rubys"
+      },
+      {
+        "value": "CUSTOM:Rubys"
+      },
+      {
+        "value": "CUSTOM:Rubys"
+      },
+      {
+        "value": "CUSTOM:Rubys"
+      },
+      {
+        "value": "CUSTOM:Rubys"
+      },
+      {
+        "value": "CUSTOM:Rubys"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RubysBlock"
+    },
+    "name": "rubys_ore_block_recipe",
+    "namespace": "mod"
+  }
+}

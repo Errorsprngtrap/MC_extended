@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "springrami:rubys"
+    }
+  },
+  "result": {
+    "item": "springrami:rubys_armor_leggings",
+    "count": 1
+  }
+}

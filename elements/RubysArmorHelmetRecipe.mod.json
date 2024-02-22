@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Rubys"
+      },
+      {
+        "value": "CUSTOM:Rubys"
+      },
+      {
+        "value": "CUSTOM:Rubys"
+      },
+      {
+        "value": "CUSTOM:Rubys"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Rubys"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RubysArmor.helmet"
+    },
+    "name": "rubys_armor_helmet_recipe",
+    "namespace": "mod"
+  }
+}

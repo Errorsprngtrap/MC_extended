@@ -20,5 +20,18 @@ public class SpringramiModTabs {
 	public static final RegistryObject<CreativeModeTab> MCEXPANSION = REGISTRY.register("mcexpansion",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.springrami.mcexpansion")).icon(() -> new ItemStack(Blocks.SMOOTH_STONE)).displayItems((parameters, tabData) -> {
 				tabData.accept(SpringramiModBlocks.DAMIER.get().asItem());
+				tabData.accept(SpringramiModBlocks.RUBYS_ORE.get().asItem());
+				tabData.accept(SpringramiModBlocks.RUBYS_BLOCK.get().asItem());
+				tabData.accept(SpringramiModItems.RUBYS_AXE.get());
+				tabData.accept(SpringramiModItems.RUBYS_PICKAXE.get());
+				tabData.accept(SpringramiModItems.RUBYS_SWORD.get());
+				tabData.accept(SpringramiModItems.RUBYS_SHOVEL.get());
+				tabData.accept(SpringramiModItems.RUBYS_HOE.get());
+				tabData.accept(SpringramiModItems.RUBYS.get());
+				tabData.accept(SpringramiModItems.RUBYS_ARMOR_HELMET.get());
+				tabData.accept(SpringramiModItems.RUBYS_ARMOR_CHESTPLATE.get());
+				tabData.accept(SpringramiModItems.RUBYS_ARMOR_LEGGINGS.get());
+				tabData.accept(SpringramiModItems.RUBYS_ARMOR_BOOTS.get());
+				tabData.accept(SpringramiModItems.HONEY_APPLE.get());
 			}).withSearchBar().build());
 }

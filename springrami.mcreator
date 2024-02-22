@@ -42,14 +42,389 @@
         ]
       },
       "path": "~/Craft"
+    },
+    {
+      "name": "Rubys",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubys",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/springrami/item/RubysItem.java",
+          "src/main/resources/assets/springrami/models/item/rubys.json"
+        ]
+      },
+      "path": "~/Minerai"
+    },
+    {
+      "name": "RubysOre",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubys_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/springrami/models/item/rubys_ore.json",
+          "src/main/java/net/mcreator/springrami/block/RubysOreBlock.java",
+          "src/main/resources/data/springrami/worldgen/placed_feature/rubys_ore.json",
+          "src/main/resources/data/springrami/worldgen/configured_feature/rubys_ore.json",
+          "src/main/resources/assets/springrami/blockstates/rubys_ore.json",
+          "src/main/resources/data/springrami/forge/biome_modifier/rubys_ore_biome_modifier.json",
+          "src/main/resources/assets/springrami/models/block/rubys_ore.json"
+        ]
+      },
+      "path": "~/Minerai"
+    },
+    {
+      "name": "RubysBlock",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubys_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/springrami/models/block/rubys_block.json",
+          "src/main/resources/assets/springrami/models/item/rubys_block.json",
+          "src/main/resources/assets/springrami/blockstates/rubys_block.json",
+          "src/main/java/net/mcreator/springrami/block/RubysBlockBlock.java"
+        ]
+      },
+      "path": "~/Block"
+    },
+    {
+      "name": "RubysOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubys_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/springrami/recipes/rubys_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "RubysBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubys_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/springrami/recipes/rubys_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "RubysOreSmelting",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubys_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/springrami/recipes/rubys_ore_smelting.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "RubysPickaxe",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubys_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/springrami/item/RubysPickaxeItem.java",
+          "src/main/resources/assets/springrami/models/item/rubys_pickaxe.json"
+        ]
+      },
+      "path": "~/Weapons"
+    },
+    {
+      "name": "RubysAxe",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubys_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/springrami/models/item/rubys_axe.json",
+          "src/main/java/net/mcreator/springrami/item/RubysAxeItem.java"
+        ]
+      },
+      "path": "~/Weapons"
+    },
+    {
+      "name": "RubysSword",
+      "type": "tool",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubys_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/springrami/models/item/rubys_sword.json",
+          "src/main/java/net/mcreator/springrami/item/RubysSwordItem.java"
+        ]
+      },
+      "path": "~/Weapons"
+    },
+    {
+      "name": "RubysShovel",
+      "type": "tool",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubys_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/springrami/models/item/rubys_shovel.json",
+          "src/main/java/net/mcreator/springrami/item/RubysShovelItem.java"
+        ]
+      },
+      "path": "~/Weapons"
+    },
+    {
+      "name": "RubysHoe",
+      "type": "tool",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubys_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/springrami/models/item/rubys_hoe.json",
+          "src/main/java/net/mcreator/springrami/item/RubysHoeItem.java"
+        ]
+      },
+      "path": "~/Weapons"
+    },
+    {
+      "name": "RubysPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubys_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/springrami/recipes/rubys_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "RubysAxeRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubys_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/springrami/recipes/rubys_axe_recipe.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "RubysSwordRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubys_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/springrami/recipes/rubys_sword_recipe.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "RubysShovelRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubys_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/springrami/recipes/rubys_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "RubysHoeRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubys_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/springrami/recipes/rubys_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "RubysArmor",
+      "type": "armor",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubys_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/springrami/item/RubysArmorItem.java",
+          "src/main/resources/assets/springrami/models/item/rubys_armor_chestplate.json",
+          "src/main/resources/assets/springrami/models/item/rubys_armor_boots.json",
+          "src/main/resources/assets/springrami/models/item/rubys_armor_helmet.json",
+          "src/main/resources/assets/springrami/models/item/rubys_armor_leggings.json"
+        ]
+      },
+      "path": "~/Armors"
+    },
+    {
+      "name": "RubysArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubys_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/springrami/recipes/rubys_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "RubysArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubys_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/springrami/recipes/rubys_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "RubysArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubys_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/springrami/recipes/rubys_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "RubysArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubys_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/springrami/recipes/rubys_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "HoneyApple",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "honey_apple",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/springrami/item/HoneyAppleItem.java",
+          "src/main/resources/assets/springrami/models/item/honey_apple.json"
+        ]
+      },
+      "path": "~/Food"
+    },
+    {
+      "name": "Honeyapplecraft",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "honeyapplecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/springrami/recipes/honeyapplecraft.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "HoneyAppleLeJoueurTermineDutiliserLitem",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "honey_apple_le_joueur_termine_dutiliser_litem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/springrami/procedures/HoneyAppleLeJoueurTermineDutiliserLitemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedure"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.springrami.rubys": "Rubys",
+      "item.springrami.honey_apple": "Honey Apple",
+      "item.springrami.rubys_axe": "Rubys Axe",
+      "item.springrami.rubys_shovel": "Rubys Shovel",
+      "item.springrami.rubys_pickaxe": "Rubys Pickaxe",
+      "item.springrami.rubys_armor_chestplate": "Rubys Chestplate",
+      "item.springrami.rubys_armor_boots": "Rubys Boots",
+      "item.springrami.rubys_armor_helmet": "Rubys Helmet",
+      "block.springrami.rubys_ore": "Rubys Ore",
+      "block.springrami.rubys_block": "Block of Rubys",
+      "item.springrami.rubys_hoe": "Rubys Hoe",
       "item_group.springrami.mcexpansion": "Mcexpansion",
-      "block.springrami.damier": "Damier"
+      "block.springrami.damier": "Damier",
+      "item.springrami.rubys_armor_leggings": "Rubys Leggings",
+      "item.springrami.rubys_sword": "Rubys Sword"
     }
   },
   "foldersRoot": {
@@ -85,6 +460,10 @@
       },
       {
         "name": "Tab",
+        "children": []
+      },
+      {
+        "name": "Procedure",
         "children": []
       }
     ]

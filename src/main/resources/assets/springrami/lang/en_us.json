@@ -1,4 +1,17 @@
 {
+  "item.springrami.rubys": "Rubys",
+  "item.springrami.honey_apple": "Honey Apple",
+  "item.springrami.rubys_axe": "Rubys Axe",
+  "item.springrami.rubys_shovel": "Rubys Shovel",
+  "item.springrami.rubys_pickaxe": "Rubys Pickaxe",
+  "item.springrami.rubys_armor_chestplate": "Rubys Chestplate",
+  "item.springrami.rubys_armor_boots": "Rubys Boots",
+  "item.springrami.rubys_armor_helmet": "Rubys Helmet",
+  "block.springrami.rubys_ore": "Rubys Ore",
+  "block.springrami.rubys_block": "Block of Rubys",
+  "item.springrami.rubys_hoe": "Rubys Hoe",
   "item_group.springrami.mcexpansion": "Mcexpansion",
-  "block.springrami.damier": "Damier"
+  "block.springrami.damier": "Damier",
+  "item.springrami.rubys_armor_leggings": "Rubys Leggings",
+  "item.springrami.rubys_sword": "Rubys Sword"
 }
