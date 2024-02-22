@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "springrami:saphir_block"
+    }
+  ],
+  "result": {
+    "item": "springrami:saphir",
+    "count": 9
+  }
+}

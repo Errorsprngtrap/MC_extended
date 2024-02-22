@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "springrami:saphir"
+    }
+  },
+  "result": {
+    "item": "springrami:saphir_armor_boots",
+    "count": 1
+  }
+}

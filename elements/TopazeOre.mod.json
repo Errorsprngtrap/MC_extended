@@ -2,7 +2,7 @@
   "_fv": 57,
   "_type": "block",
   "definition": {
-    "texture": "rubys_ore",
+    "texture": "topaze_ore",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -33,12 +33,12 @@
         "subtract": false
       }
     ],
-    "name": "Rubys Ore",
+    "name": "Topaze Ore",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 4.5,
-    "resistance": 6.915809336112958,
+    "hardness": 3.5999999999999996,
+    "resistance": 5.785155024015763,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -46,7 +46,7 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:Rubys"
+      "value": "CUSTOM:Topaze"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -100,7 +100,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 3,
+    "breakHarvestLevel": 2,
     "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
@@ -131,9 +131,9 @@
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 7,
-    "frequencyOnChunk": 4,
+    "frequencyPerChunks": 9,
+    "frequencyOnChunk": 5,
     "minGenerateHeight": 1,
-    "maxGenerateHeight": 20
+    "maxGenerateHeight": 53
   }
 }

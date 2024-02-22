@@ -1,9 +1,9 @@
 {
-  "feature": "springrami:rubys_ore",
+  "feature": "springrami:topaze_ore",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 7
+      "count": 9
     },
     {
       "type": "minecraft:in_square"
@@ -16,7 +16,7 @@
           "absolute": 1
         },
         "max_inclusive": {
-          "absolute": 20
+          "absolute": 53
         }
       }
     },

@@ -404,27 +404,449 @@
         ]
       },
       "path": "~/Procedure"
+    },
+    {
+      "name": "Saphir",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphir",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/springrami/models/item/saphir.json",
+          "src/main/java/net/mcreator/springrami/item/SaphirItem.java"
+        ]
+      },
+      "path": "~/Minerai"
+    },
+    {
+      "name": "SaphirOre",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphir_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/springrami/worldgen/configured_feature/saphir_ore.json",
+          "src/main/resources/assets/springrami/models/item/saphir_ore.json",
+          "src/main/resources/assets/springrami/blockstates/saphir_ore.json",
+          "src/main/resources/data/springrami/forge/biome_modifier/saphir_ore_biome_modifier.json",
+          "src/main/resources/assets/springrami/models/block/saphir_ore.json",
+          "src/main/resources/data/springrami/worldgen/placed_feature/saphir_ore.json",
+          "src/main/java/net/mcreator/springrami/block/SaphirOreBlock.java"
+        ]
+      },
+      "path": "~/Minerai"
+    },
+    {
+      "name": "SaphirBlock",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphir_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/springrami/models/item/saphir_block.json",
+          "src/main/resources/assets/springrami/blockstates/saphir_block.json",
+          "src/main/java/net/mcreator/springrami/block/SaphirBlockBlock.java",
+          "src/main/resources/assets/springrami/models/block/saphir_block.json"
+        ]
+      },
+      "path": "~/Block"
+    },
+    {
+      "name": "SaphirOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphir_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/springrami/recipes/saphir_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "SaphirBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphir_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/springrami/recipes/saphir_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "SaphirOreSmelting",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphir_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/springrami/recipes/saphir_ore_smelting.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "SaphirPickaxe",
+      "type": "tool",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphir_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/springrami/item/SaphirPickaxeItem.java",
+          "src/main/resources/assets/springrami/models/item/saphir_pickaxe.json"
+        ]
+      },
+      "path": "~/Weapons"
+    },
+    {
+      "name": "SaphirAxe",
+      "type": "tool",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphir_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/springrami/item/SaphirAxeItem.java",
+          "src/main/resources/assets/springrami/models/item/saphir_axe.json"
+        ]
+      },
+      "path": "~/Weapons"
+    },
+    {
+      "name": "SaphirSword",
+      "type": "tool",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphir_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/springrami/item/SaphirSwordItem.java",
+          "src/main/resources/assets/springrami/models/item/saphir_sword.json"
+        ]
+      },
+      "path": "~/Weapons"
+    },
+    {
+      "name": "SaphirShovel",
+      "type": "tool",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphir_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/springrami/models/item/saphir_shovel.json",
+          "src/main/java/net/mcreator/springrami/item/SaphirShovelItem.java"
+        ]
+      },
+      "path": "~/Weapons"
+    },
+    {
+      "name": "SaphirHoe",
+      "type": "tool",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphir_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/springrami/item/SaphirHoeItem.java",
+          "src/main/resources/assets/springrami/models/item/saphir_hoe.json"
+        ]
+      },
+      "path": "~/Weapons"
+    },
+    {
+      "name": "SaphirPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphir_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/springrami/recipes/saphir_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "SaphirAxeRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphir_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/springrami/recipes/saphir_axe_recipe.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "SaphirSwordRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphir_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/springrami/recipes/saphir_sword_recipe.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "SaphirShovelRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphir_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/springrami/recipes/saphir_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "SaphirHoeRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphir_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/springrami/recipes/saphir_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "SaphirArmor",
+      "type": "armor",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphir_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/springrami/models/item/saphir_armor_boots.json",
+          "src/main/resources/assets/springrami/models/item/saphir_armor_helmet.json",
+          "src/main/resources/assets/springrami/models/item/saphir_armor_leggings.json",
+          "src/main/java/net/mcreator/springrami/item/SaphirArmorItem.java",
+          "src/main/resources/assets/springrami/models/item/saphir_armor_chestplate.json"
+        ]
+      },
+      "path": "~/Armors"
+    },
+    {
+      "name": "SaphirArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphir_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/springrami/recipes/saphir_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "SaphirArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphir_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/springrami/recipes/saphir_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "SaphirArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphir_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/springrami/recipes/saphir_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "SaphirArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphir_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/springrami/recipes/saphir_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "Topaze",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "topaze",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/springrami/models/item/topaze.json",
+          "src/main/java/net/mcreator/springrami/item/TopazeItem.java"
+        ]
+      },
+      "path": "~/Minerai"
+    },
+    {
+      "name": "TopazeOre",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "topaze_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/springrami/blockstates/topaze_ore.json",
+          "src/main/java/net/mcreator/springrami/block/TopazeOreBlock.java",
+          "src/main/resources/assets/springrami/models/item/topaze_ore.json",
+          "src/main/resources/assets/springrami/models/block/topaze_ore.json",
+          "src/main/resources/data/springrami/worldgen/placed_feature/topaze_ore.json",
+          "src/main/resources/data/springrami/forge/biome_modifier/topaze_ore_biome_modifier.json",
+          "src/main/resources/data/springrami/worldgen/configured_feature/topaze_ore.json"
+        ]
+      },
+      "path": "~/Minerai"
+    },
+    {
+      "name": "TopazeBlock",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "topaze_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/springrami/blockstates/topaze_block.json",
+          "src/main/resources/assets/springrami/models/block/topaze_block.json",
+          "src/main/resources/assets/springrami/models/item/topaze_block.json",
+          "src/main/java/net/mcreator/springrami/block/TopazeBlockBlock.java"
+        ]
+      },
+      "path": "~/Block"
+    },
+    {
+      "name": "TopazeOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "topaze_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/springrami/recipes/topaze_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "TopazeBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "topaze_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/springrami/recipes/topaze_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "TopazeOreSmelting",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "topaze_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/springrami/recipes/topaze_ore_smelting.json"
+        ]
+      },
+      "path": "~/Craft"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.springrami.saphir_block": "Block of Saphir",
+      "item.springrami.saphir": "Saphir",
       "item.springrami.rubys": "Rubys",
       "item.springrami.honey_apple": "Honey Apple",
-      "item.springrami.rubys_axe": "Rubys Axe",
-      "item.springrami.rubys_shovel": "Rubys Shovel",
-      "item.springrami.rubys_pickaxe": "Rubys Pickaxe",
+      "block.springrami.saphir_ore": "Saphir Ore",
       "item.springrami.rubys_armor_chestplate": "Rubys Chestplate",
-      "item.springrami.rubys_armor_boots": "Rubys Boots",
-      "item.springrami.rubys_armor_helmet": "Rubys Helmet",
       "block.springrami.rubys_ore": "Rubys Ore",
       "block.springrami.rubys_block": "Block of Rubys",
       "item.springrami.rubys_hoe": "Rubys Hoe",
+      "item.springrami.saphir_armor_helmet": "Saphir Helmet",
+      "block.springrami.topaze_block": "Block of Topaze",
+      "item.springrami.rubys_sword": "Rubys Sword",
+      "item.springrami.saphir_shovel": "Saphir Shovel",
+      "block.springrami.topaze_ore": "Topaze Ore",
+      "item.springrami.rubys_axe": "Rubys Axe",
+      "item.springrami.saphir_armor_chestplate": "Saphir Chestplate",
+      "item.springrami.rubys_shovel": "Rubys Shovel",
+      "item.springrami.saphir_sword": "Saphir Sword",
+      "item.springrami.saphir_hoe": "Saphir Hoe",
+      "item.springrami.saphir_armor_boots": "Saphir Boots",
+      "item.springrami.rubys_pickaxe": "Rubys Pickaxe",
+      "item.springrami.rubys_armor_boots": "Rubys Boots",
+      "item.springrami.topaze": "Topaze",
+      "item.springrami.rubys_armor_helmet": "Rubys Helmet",
+      "item.springrami.saphir_pickaxe": "Saphir Pickaxe",
       "item_group.springrami.mcexpansion": "Mcexpansion",
+      "item.springrami.saphir_armor_leggings": "Saphir Leggings",
       "block.springrami.damier": "Damier",
-      "item.springrami.rubys_armor_leggings": "Rubys Leggings",
-      "item.springrami.rubys_sword": "Rubys Sword"
+      "item.springrami.saphir_axe": "Saphir Axe",
+      "item.springrami.rubys_armor_leggings": "Rubys Leggings"
     }
   },
   "foldersRoot": {

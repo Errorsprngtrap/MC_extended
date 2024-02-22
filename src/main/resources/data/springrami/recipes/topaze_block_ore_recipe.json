@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "springrami:topaze_block"
+    }
+  ],
+  "result": {
+    "item": "springrami:topaze",
+    "count": 9
+  }
+}

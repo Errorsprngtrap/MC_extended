@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "springrami:block/saphir_ore",
+    "particle": "springrami:block/saphir_ore"
+  },
+  "render_type": "solid"
+}

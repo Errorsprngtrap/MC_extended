@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "springrami:saphir"
+    }
+  },
+  "result": {
+    "item": "springrami:saphir_block",
+    "count": 1
+  }
+}

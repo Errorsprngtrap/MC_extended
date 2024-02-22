@@ -2,6 +2,10 @@
   "replace": false,
   "values": [
     "springrami:rubys_ore",
-    "springrami:rubys_block"
+    "springrami:rubys_block",
+    "springrami:saphir_ore",
+    "springrami:saphir_block",
+    "springrami:topaze_ore",
+    "springrami:topaze_block"
   ]
 }

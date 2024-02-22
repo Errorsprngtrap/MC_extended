@@ -12,6 +12,14 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.springrami.item.TopazeItem;
+import net.mcreator.springrami.item.SaphirSwordItem;
+import net.mcreator.springrami.item.SaphirShovelItem;
+import net.mcreator.springrami.item.SaphirPickaxeItem;
+import net.mcreator.springrami.item.SaphirItem;
+import net.mcreator.springrami.item.SaphirHoeItem;
+import net.mcreator.springrami.item.SaphirAxeItem;
+import net.mcreator.springrami.item.SaphirArmorItem;
 import net.mcreator.springrami.item.RubysSwordItem;
 import net.mcreator.springrami.item.RubysShovelItem;
 import net.mcreator.springrami.item.RubysPickaxeItem;
@@ -38,6 +46,21 @@ public class SpringramiModItems {
 	public static final RegistryObject<Item> RUBYS_ARMOR_LEGGINGS = REGISTRY.register("rubys_armor_leggings", () -> new RubysArmorItem.Leggings());
 	public static final RegistryObject<Item> RUBYS_ARMOR_BOOTS = REGISTRY.register("rubys_armor_boots", () -> new RubysArmorItem.Boots());
 	public static final RegistryObject<Item> HONEY_APPLE = REGISTRY.register("honey_apple", () -> new HoneyAppleItem());
+	public static final RegistryObject<Item> SAPHIR_ARMOR_HELMET = REGISTRY.register("saphir_armor_helmet", () -> new SaphirArmorItem.Helmet());
+	public static final RegistryObject<Item> SAPHIR_ARMOR_CHESTPLATE = REGISTRY.register("saphir_armor_chestplate", () -> new SaphirArmorItem.Chestplate());
+	public static final RegistryObject<Item> SAPHIR_ARMOR_LEGGINGS = REGISTRY.register("saphir_armor_leggings", () -> new SaphirArmorItem.Leggings());
+	public static final RegistryObject<Item> SAPHIR_ARMOR_BOOTS = REGISTRY.register("saphir_armor_boots", () -> new SaphirArmorItem.Boots());
+	public static final RegistryObject<Item> SAPHIR_ORE = block(SpringramiModBlocks.SAPHIR_ORE);
+	public static final RegistryObject<Item> SAPHIR_BLOCK = block(SpringramiModBlocks.SAPHIR_BLOCK);
+	public static final RegistryObject<Item> TOPAZE_ORE = block(SpringramiModBlocks.TOPAZE_ORE);
+	public static final RegistryObject<Item> TOPAZE_BLOCK = block(SpringramiModBlocks.TOPAZE_BLOCK);
+	public static final RegistryObject<Item> SAPHIR = REGISTRY.register("saphir", () -> new SaphirItem());
+	public static final RegistryObject<Item> TOPAZE = REGISTRY.register("topaze", () -> new TopazeItem());
+	public static final RegistryObject<Item> SAPHIR_PICKAXE = REGISTRY.register("saphir_pickaxe", () -> new SaphirPickaxeItem());
+	public static final RegistryObject<Item> SAPHIR_AXE = REGISTRY.register("saphir_axe", () -> new SaphirAxeItem());
+	public static final RegistryObject<Item> SAPHIR_SWORD = REGISTRY.register("saphir_sword", () -> new SaphirSwordItem());
+	public static final RegistryObject<Item> SAPHIR_SHOVEL = REGISTRY.register("saphir_shovel", () -> new SaphirShovelItem());
+	public static final RegistryObject<Item> SAPHIR_HOE = REGISTRY.register("saphir_hoe", () -> new SaphirHoeItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

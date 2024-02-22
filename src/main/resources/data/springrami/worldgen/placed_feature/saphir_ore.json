@@ -1,5 +1,5 @@
 {
-  "feature": "springrami:rubys_ore",
+  "feature": "springrami:saphir_ore",
   "placement": [
     {
       "type": "minecraft:count",
@@ -16,7 +16,7 @@
           "absolute": 1
         },
         "max_inclusive": {
-          "absolute": 20
+          "absolute": 43
         }
       }
     },

@@ -2,7 +2,7 @@
   "_fv": 57,
   "_type": "block",
   "definition": {
-    "texture": "rubys_ore",
+    "texture": "saphir_ore",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Rubys Ore",
+    "name": "Saphir Ore",
     "specialInformation": {
       "fixedValue": []
     },
@@ -46,7 +46,7 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:Rubys"
+      "value": "CUSTOM:Saphir"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -134,6 +134,6 @@
     "frequencyPerChunks": 7,
     "frequencyOnChunk": 4,
     "minGenerateHeight": 1,
-    "maxGenerateHeight": 20
+    "maxGenerateHeight": 43
   }
 }
